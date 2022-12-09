@@ -1,0 +1,39 @@
+.EvenOddAppContainer {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.EvenOddAppSubContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+  border-radius: 15px;
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+}
+.title {
+  color: #0f172a;
+  font-family: 'Roboto';
+}
+.button {
+  background-color: #ffffff;
+  padding: 8px;
+  min-width: 100px;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 0px;
+  cursor: pointer;
+}
+.EvenOddDescription {
+  font-family: 'Roboto';
+  color: #334155;
+}
+.note-description {
+  font-family: 'Roboto';
+  font-size: 10px;
+}
